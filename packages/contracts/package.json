@@ -1,0 +1,22 @@
+{
+  "name": "@megaeth/contracts",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "hardhat compile",
+    "test": "hardhat test",
+    "lint": "eslint \"{contracts,hardhat.config.ts,test}/**/*.{ts,js}*\""
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.12",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^5.0.2",
+    "ethers": "^6.11.1",
+    "hardhat": "^2.22.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typechain": "^8.3.1",
+    "typescript": "^5.4.5"
+  }
+}

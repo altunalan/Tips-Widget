@@ -1,0 +1,12 @@
+node_modules/
+packages/*/node_modules/
+packages/*/dist/
+packages/*/.vite/
+packages/contracts/artifacts/
+packages/contracts/cache/
+packages/contracts/typechain-types/
+packages/server/dist/
+packages/widget/dist/
+packages/site/dist/
+packages/server/.env
+.DS_Store

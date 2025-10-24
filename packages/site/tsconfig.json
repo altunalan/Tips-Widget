@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "lib": ["DOM", "ES2022"],
+    "types": ["vite/client"]
+  },
+  "include": ["src"],
+  "exclude": ["dist"]
+}
